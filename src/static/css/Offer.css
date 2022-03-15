@@ -1,0 +1,182 @@
+/* Offer section starts here */
+.offer-section {
+    /* border: 2px solid red; */
+  }
+  .offer-section h3 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .second-headings {
+    width: 80%;
+    margin: auto;
+    padding: 12px 12px;
+  }
+  .show h2{
+    display: inline;
+  }
+  .hide h2{
+    display: inline;
+  }
+  .show img{
+     visibility: hidden;
+  }
+  .hide img{
+    visibility: visible;
+  }
+  
+  
+  .show2 h2{
+    display: inline;
+  }
+  .hide2 h2{
+    display: inline;
+  }
+  .show2 img{
+     visibility: hidden;
+  }
+  .hide2 img{
+    visibility: visible;
+  }
+  
+  
+  .show3 h2{
+    display: inline;
+  }
+  .hide3 h2{
+    display: inline;
+  }
+  .show3 img{
+     visibility: hidden;
+  }
+  .hide3 img{
+    visibility: visible;
+  }
+  
+  
+  .show4 h2{
+    display: inline;
+  }
+  .hide4 h2{
+    display: inline;
+  }
+  .show4 img{
+     visibility: hidden;
+  }
+  .hide4 img{
+    visibility: visible;
+  }
+  
+  
+  .offer-section h2 {
+    font-size: 55px;
+    margin-top: 15px;
+  }
+  /* Offer section ends here */
+  
+  @media screen and (max-width: 800px) {
+    /* Offer section starts here */
+    .offer-section h3 {
+      font-size: 25px;
+      text-align: left;
+      margin-top: 50px;
+    }
+    .offer-section h2 {
+      font-size: 30px;
+      margin-top: 15px;
+    }
+    /* Offer section ends here */
+  }
+  
+  
+  .notVisible{
+    display: none;
+  }
+  .visibleNow{
+    display: block;
+    font-size: 18px;
+  }
+  .visibleNow h3{
+    text-align: left;
+    margin: 2px;
+  }
+  .show5{
+    display: inline;
+  }
+  .hide5{
+    cursor: pointer;
+    display: inline;
+    padding-right:12px ;
+  }
+  .newBox{
+    display: inline;
+  }
+  .hide6{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .hide7{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .hide8{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .visibleNow2{
+    display: none;
+  }
+  
+  .subheading__hover{
+    cursor: pointer;
+  }
+  .subheading__hover h3{
+    display: inline-block;
+  }
+  
+  .subheading__hover .subheading__hover__img{
+    height: 30px;
+    width: 30px;
+    transform: translateX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .subheading__hover:hover .subheading__hover__img{
+    transform: translateX(10px);
+  }
+  
+  .header__hover{
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  
+  .header__hover h2{
+    display: inline-block;
+  }
+  
+  .header__hover .header__hover__img{
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .header__hover:hover .header__hover__img{
+    transform: scale(1);
+  }
+  
+  .white__paper__download{
+    height: 100%;
+  }
+  
+  .subheading__hover__div{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .subheading__hover__div .subheading__hover__img{
+    transform: rotate(180deg);
+  }

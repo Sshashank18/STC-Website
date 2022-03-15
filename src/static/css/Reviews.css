@@ -1,0 +1,302 @@
+.navigation-bar {
+    background-color: var(--font-color-1);
+  }
+  #logo {
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  #menu {
+    height: 65px;
+  }
+  .body {
+    text-align: left;
+    color: var(--main-color);
+    width: 80%;
+    margin: auto;
+    padding: 2% 7%;
+    margin-top: 80px;
+  }
+  .body h1 {
+    font-size: 100px;
+  }
+  .body p {
+    font-size: 25px;
+    opacity: 0.5;
+    margin: 0;
+  }
+  
+  
+  
+  /* .img-box{
+    width: 70%;
+    margin: auto;
+  } */
+  .info{
+    width: 300px;
+    margin: auto;
+  }
+  .info p{
+    width: 250px;
+  }
+  .info img{
+    height: 400px;
+    width: 289px;
+  }
+  .info2{
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+  }
+  .info2 p{
+    width: 250px;
+  }
+  .info2 img{
+    height: 400px;
+    width: 289px;
+  }
+  
+  /* .ofhover{
+    width:270px;
+  } */
+  #day{
+    width: 250px;
+    padding: 0px 12px;
+    font-size: 16px;
+  }
+  .ofhover #day{
+    margin-top: -300px;
+    width: 270px;
+    display: none;
+  }
+  .onhover{
+    background-color: var(--main-color);
+    color: var(--font-color-1);
+    width:289px;
+    height: 400px;
+  }
+  .onhover img{
+    height: 160px;
+    width: 160px;
+    padding: 12px 12px;
+    border-radius: 50%;
+  }
+  #quote{
+    font-size: 20px;
+    margin: 0;
+  }
+  #quoteName{
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  
+  .img-box,.another-img-box {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  .wrapperSection:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .wrapperSection{
+    margin-top: 150px;
+  }
+  
+  #read{
+    color: var(--font-color-1);
+    z-index: 1;
+    background-color: var(--main-color);
+    text-align: center;
+    width: 290px;
+    background-color: var(--main-color);
+    color: var(--font-color-1);
+    position: relative;
+    top: -25px;
+    display: block;
+    height: 30px;
+  }
+  .onhover #read{
+    display: none;
+  }
+  .ofhover #read{
+    display: none;
+  }
+  
+  
+  /* Grid section starts here */
+  .grid-section{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .grid-section h1{
+    font-size: 75px;
+  }
+  .card{
+    width: 18rem;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+  }
+  #profile {
+    width: 100%;
+    height: 300px;
+  }
+  .card-title{
+    font-size: 25px;
+    color: var(--main-color);
+  }
+  .card-text{
+    font-size: 20px;
+    color: var(--main-color);
+    opacity: 0.5;
+  }
+  /* Grid Section ends here */
+  
+  
+  
+  
+  
+  
+  
+  .running-text{
+    height: 180px;
+    width: 100%;
+    font-size: 30px;
+    background-color: var(--main-color);
+    color: var(--font-color-1);
+    font-weight: 100;
+    -ms-transform: skewY(-3deg); /* IE 9 */
+    transform: skewY(-3deg);
+    margin-top: 150px;
+  }
+  .part-section{
+    width: 70%;
+    margin: auto;
+    padding: 2% 6%;
+    margin-top: 70px;
+  }
+  .part-section h1{
+    font-size: 75px;
+  }
+  .part-section p{
+    font-size: 20px;
+    color: var(--main-color);
+    opacity: 0.5;
+  }
+  .part-section h3{
+    font-size: 25px;
+    color: var(--main-color);
+    opacity: 0.5;
+  }
+  
+  .running-text {
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 25px;
+    padding: 2px 0px;
+    font-weight: 100;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+  }
+  
+  .marquee p {
+    display: inline-block;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+  
+  
+  @media screen and (max-width:800px) {
+    .grid-section{
+      width: 100%;
+    }
+    .body h1 {
+      font-size: 60px;
+    }
+    .body p {
+      font-size: 18px;
+    }
+    .body{
+      padding: 0px 0px;
+    }
+    .img-box,.another-img-box {
+      width: 100%;
+    }
+    .info{
+      width: 300px;
+      margin: auto;
+    }
+    .info2{
+      width: 300px;
+      margin: auto;
+    }
+    .grid-section h1{
+      font-size: 35px;
+    }
+    .part-section{
+      width: 100%;
+    }
+    .part-section h1{
+      font-size: 35px;
+    }
+    .part-section p{
+      font-size: 14px;
+    }
+    .part-section h3{
+      font-size: 16px;
+    }
+    #profile {
+      width: 100%;
+      height: 200px;
+    }
+    .ofhover #read{
+      display: block;
+    }
+    #path1,#path2{
+      display: none;
+    }
+    .hide{
+      display: none;
+    }
+  }
+  @media screen and (max-width:1008px) {
+    .card{
+      width: 200px;
+    }
+  }
+  
+  #path1{
+    width: 367px;
+    height: 883px;
+    position: absolute;
+    top: 60%;
+    right: 30%;
+    z-index: -1;
+  }
+  #path2{
+    height: 592px;
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: 300%;
+    z-index: -1;
+  }

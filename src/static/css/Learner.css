@@ -1,0 +1,138 @@
+.learner-sec{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.main-container,.main-container-2, .main-container-3, .main-container-4 {
+    flex: 25%;
+    padding: 20px;
+  }
+.main-container{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.main-container img{
+    height: 100px;
+    border-right: 2px solid var(--main-color);
+}
+.main-container-2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.main-container-2 img{
+    height: 100px;
+    border-right: 2px solid var(--main-color);
+}
+.main-container-3{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.main-container-3 img{
+    height: 100px;
+    border-right: 2px solid var(--main-color);
+}
+.main-container-4{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.main-container-4 img{
+    height: 100px;
+    border-right: 2px solid var(--main-color);
+}
+.another-overlay {
+    position: absolute;
+    bottom: -308%;
+    left: 12%;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 16%;
+    height: 0;
+    transition: .2s ease;
+}
+.main-container:hover .another-overlay {
+    height: 13%;
+  }
+
+  .text-one {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-5%, 1%);
+  }
+
+
+
+  .another-overlay-2 {
+    position: absolute;
+    bottom: -308%;
+    left: 32%;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 16%;
+    height: 0%;
+    transition: .2s ease;
+}
+.main-container-2:hover .another-overlay-2 {
+     height: 13%;
+  }
+
+  .text-one-2 {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-5%, 1%);
+  }
+
+  .another-overlay-3 {
+    position: absolute;
+    bottom: -308%;
+    left: 52%;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 16%;
+    height: 0%;
+    transition: .2s ease;
+}
+.main-container-3:hover .another-overlay-3 {
+    height: 13%;
+  }
+
+  .text-one-3 {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-5%, 1%);
+  }
+
+  
+  .another-overlay-4 {
+    position: absolute;
+    bottom: -308%;
+    left: 70%;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 19%;
+    height: 0;
+    transition: .2s ease;
+}
+.main-container-4:hover .another-overlay-4 {
+    height: 13%;
+  }
+
+  .text-one-4 {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-5%, 1%);
+  }
+@media screen and (max-width:800px) {
+    .learner-sec{
+        display: none;
+    }
+    
+}
