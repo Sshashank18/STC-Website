@@ -374,11 +374,31 @@
       font-size: 5vw !important;
     }
 
+    .over-shadow{
+      position: fixed;
+      z-index: 1;
+      width: 93%;
+    }
+
     .home-container {
       height: 743px;
     }
-    .home-container img {
-      display: none;
+
+    .circle{
+      left: 27px;
+      top: 363px;
+    }
+
+    .sec-arrow{
+      left:127px;
+      top:463px;
+      max-height: 5rem;
+    }
+
+    .line{
+      max-height: 3rem;
+      left: 45px;
+      top: 120px;
     }
     /* .right-side-menu{
       display: none;
@@ -391,7 +411,7 @@
       background-color: var(--main-color);
       color: var(--font-color-3);
       text-align: center;
-      height: 850px;
+      height: 648px;
       margin-top: -84px;
     }
   
@@ -399,7 +419,7 @@
       text-align: left;
       padding: 0px 3%;
       position: absolute;
-      top: 200px;
+      top: 74px;
       cursor: pointer;
     }
     .forText a {
@@ -407,7 +427,7 @@
       text-decoration: none;
     }
     .forText h3 {
-      font-size: 50px;
+      font-size: 43px;
     }
     .forText p {
       font-size: 30px;
@@ -417,18 +437,19 @@
       width: 50px;
       position: absolute;
       right: 10px;
-      top: 457px;
+      top: 300px;
     }
     #text-img-2 {
       position: absolute;
-      right: 10px;
-      top: 516px;
+      right: 26px;
+      top: 359px;
+      width: 136px;
     }
     #reach-para {
       color: var(--font-color-1);
       position: absolute;
       left: 20px;
-      top: 565px;
+      top: 370px;
       font: xx-large;
     }
     .mob-con {

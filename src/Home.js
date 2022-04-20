@@ -62,7 +62,7 @@ const Home = () => {
     if(name=='Performance') {setActive(true);  setActive2(false); setActive3(false); setActive4(false);}                          
     else if(name=='E-commerce') {setActive2(true); setActive(false); setActive3(false); setActive4(false);}                        
     else if(name=='Data') {setActive3(true);  setActive2(false); setActive4(false); setActive(false);}                            
-    else {setActive4(!active4);  setActive(true); setActive2(false); setActive3(false); }                       
+    else if(name=='Scaling') {setActive4(true);  setActive(false); setActive2(false); setActive3(false); }                       
   };
 
   return (
@@ -87,13 +87,14 @@ const Home = () => {
       <div className="another-div">
         <h2>Our Partners</h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
-          velit consectetur incidunt, quam, error odit, eum totam odio voluptas
-          laudantium nemo unde corrupti provident commodi possimus enim. Facere,
-          excepturi, quaerat ipsam quasi nihil autem eum error accusamus quidem
-          beatae tenetur doloremque assumenda nemo modi est voluptates quod
-          debitis. Optio tempora doloribus consequatur repellendus ab expedita
-          quo, eveniet obcaecati nihil nostrum?
+        We work with our partners to create
+        an ecosystem which helps in building
+        brands in the D2C space. Our experts
+        stratergize, creatively design, and 
+        provide solutions which helps in scaling
+        businesses. Building a brand together
+        as a value and build establishments,
+        that we practise with our partners.
         </p>
       </div>
       <div class="row-layout">

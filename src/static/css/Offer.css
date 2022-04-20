@@ -75,7 +75,8 @@
   @media screen and (max-width: 800px) {
     /* Offer section starts here */
     .offer-section h3 {
-      font-size: 25px;
+      font-size: 17px;
+      color: grey;
       text-align: left;
       margin-top: 50px;
     }

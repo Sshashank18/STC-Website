@@ -253,11 +253,18 @@
     .img-box,.another-img-box {
       width: 100%;
     }
+    .another-img-box2{
+      margin-left: 0px;
+    }
     .info{
       width: 300px;
       margin: auto;
     }
     .info2{
+      width: 300px;
+      margin: auto;
+    }
+    .info3{
       width: 300px;
       margin: auto;
     }

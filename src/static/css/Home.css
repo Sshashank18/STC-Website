@@ -231,15 +231,25 @@
   }
   
   @media screen and (max-width: 800px) {
+
       .headline{
-          margin: 30% 6%;
+          margin: 30% 19%;
+          width: 200px;
       }
       .headline p{
-          display: none;
+          /* display: none; */
+          font-size: 18px;
       }
+
+      .headline h1{
+        /* font-size: 35px; */
+        display: none;
+      }
+
       /* Our partners section starts here */
     .column-layout {
       width: 100%;
+      padding-left: 25px;
     }
     .all-img{
         width: 100%;
@@ -256,6 +266,7 @@
     .para{
         width: 100%;
     }
+    
     .second-column{
         visibility: hidden;
         display: none;
@@ -278,8 +289,8 @@
   /* Ecosystem section starts here */
   .eco-column-1,.eco-column-2 {
     width: 100%;
-    padding: 12px 6%;
-    font-size: 16px;
+    padding: 12px 12%;
+    font-size: 14px;
   }
   .eco-column-1 h2{
     font-size: 25px;
@@ -352,35 +363,58 @@
     display: none;
   }
   
+
+  .eco-section{
+    margin-top: -90px;
+  }
   
   /* Ecosystem section ends here */
   .line-one{
-    width:30%;
+    width:80%;
     height: 0.6px;
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -65%;
-    top: 47px;
+    right: -11%;
+    top: 82px;
   }
   .line-two{
-    width:14%;
+    width:44%;
     height: 0.6px;
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -9%;
-    top: 153px;
+    right: -2%;
+    top: 189px;
   }
   .line-three{
-    width:8%;
+    width:20%;
     height: 0.6px;
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -76%;
-    top: 200px;
+    right: -72%;
+    top: 295px;
   }
+
+  .questionsNav{
+    justify-content: unset;
+    margin-left: 55px;
+  }
+
+  .questionsNav p{
+    width: 13%;
+    font-size: 16px;
+  }
+
+
+  .another-div{
+    padding: 2% 12%;
+  }
+  .another-div p{
+    font-size: 14px;
+  }
+
   }
   @media screen and (min-width: 800px)  {
     .headline h1{

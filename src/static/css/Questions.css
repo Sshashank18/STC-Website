@@ -80,23 +80,8 @@
     width: 30px;
   }
   
-  @media screen and (max-width: 800px) {
 
-    .ques-section h3 {
-      font-size: 25px;
-      text-align: left;
-      margin-top: 50px;
-    }
-    .ques-section h2 {
-      font-size: 30px;
-      margin-top: 15px;
-    }
-    .subheading_img{
-        height: 30px;
-        width: 30px;
-      }
-  }
-  
+
   
   .notVisible{
     display: none;
@@ -167,3 +152,28 @@
     display: flex;
     justify-content: space-between;
   }
+
+  @media screen and (max-width: 800px) {
+
+    .ques-section{
+      margin-left: 51px;
+    }
+
+    .ques-section h3 {
+      font-size: 20px;
+      text-align: left;
+    }
+    .ques-section h2 {
+      font-size: 30px;
+      margin-top: 15px;
+    }
+    .subheading_img{
+        height: 30px;
+        width: 30px;
+      }
+
+      .subheading__hover p{
+        margin-left: 0px;
+      }
+  }
+  
