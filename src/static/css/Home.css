@@ -3,7 +3,7 @@
     margin: 11% 11%;
   }
   .headline p{
-      font-size: 45px;
+      font-size: 35px;
       margin:0;
     padding:0;
   }
@@ -24,6 +24,17 @@
       height: auto;
       margin: 0px 6%;
   }
+  .all-img2{
+    width: 100%;
+    margin-left: 0;
+}
+
+  .all-img2 img{
+    width: 15%;
+    height: auto;
+    margin: 12px 4%;
+  }
+
   .second-column {
     width: 40%;
   }
@@ -75,7 +86,8 @@
   }
   .eco-column-1{
     width: 40%;
-    padding: 12px 6%;
+    padding: 12px 1%;
+    padding-left: 9%;
   }
   .eco-column-1 p{
     opacity: 60%;
@@ -192,13 +204,31 @@
     margin: auto;
     margin-bottom: 50px;
   }
-  
-  
+
   /* Learner|Faster| bigger| better section ends here */
   
   
+  .questionsNav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top: 15px;
+    margin-left: 65px;
+  }
+
+  .questionsNav p {
+    font-size: 21px;
+    font-family: 'Cardo',serif;
+    width: 9%;
+    cursor: pointer;
+    margin-right: 80px;
+    color:gray;
+  }
   
   
+  .questionsNav > .active{
+    color: black;
+  }
   
   @media screen and (max-width: 800px) {
       .headline{
@@ -325,30 +355,30 @@
   
   /* Ecosystem section ends here */
   .line-one{
-    width:16%;
+    width:30%;
     height: 0.6px;
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -68%;
-    top: 63px;
+    right: -65%;
+    top: 47px;
   }
   .line-two{
-    width:25%;
+    width:14%;
     height: 0.6px;
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -27%;
-    top: 200px;
+    right: -9%;
+    top: 153px;
   }
   .line-three{
-    width:25%;
+    width:8%;
     height: 0.6px;
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -59%;
+    right: -76%;
     top: 200px;
   }
   }
@@ -366,30 +396,30 @@
   }
   /* Learner|Faster| bigger| better section ends here */
   .line-one{
-    width:10%;
+    width:30%;
     height: 0.6px;
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -68%;
-    top: 60px;
+    right: -65%;
+    top: 47px;
   }
   .line-two{
-    width:25%;
+    width:14%;
     height: 0.6px;
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -27%;
-    top: 200px;
+    right: -9%;
+    top: 153px;
   }
   .line-three{
-    width:25%;
+    width:8%;
     height: 0.6px;
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -59%;
+    right: -76%;
     top: 200px;
   }
   }

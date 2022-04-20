@@ -18,6 +18,7 @@ import { MdLocationOn } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { ImCross } from "react-icons/im";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -59,12 +60,12 @@ const Navbar = () => {
               </div>
               <div class="col sec-col">
                 <img src={path2} alt="" id="img-2" onClick={toggleMenu} />
-                <p style={{ marginTop: "188px", marginRight: "30px" }}>
+                <p style={{ marginTop: "140px", marginRight: "30px" }}>
                   <NavLink id="para1" to="/anyqueries">
                     Big questions <br /> on your mind?
                   </NavLink>
                 </p>
-                <p style={{ marginTop: "87px" }}>
+                <p>
                   <NavLink id="para2" to="/reviews">
                     We are not shy, <br /> Stalk Us!
                   </NavLink>
@@ -165,14 +166,39 @@ const Navbar = () => {
           <img src={path} alt="" className="circle" />
           <div className="box">
             <p>
-              We help <br /> build intelligent <br /> D2C brands.
+            Simplifying <br/>E-commerce
             </p>
+            <p className="smallP">We help build intelligent D2C Brands.</p>
           </div>
           <div className="left-side-menu">
-            <a href="#">Partners</a>
-            <a href="#">Services</a>
-            <a href="#">Ecosystem</a>
-            <a href="#">Talk to us</a>
+            <Link
+                activeClass="active"
+                to="partners"
+                spy={true}
+                smooth={true}
+                duration={300}
+            >Partners</Link>
+            <Link
+                activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                duration={300}
+            >Services</Link>
+            <Link
+                activeClass="active"
+                to="ecosystem"
+                spy={true}
+                smooth={true}
+                duration={300}
+            >Ecosystem</Link>
+            <Link
+                activeClass="active"
+                to="footer"
+                spy={true}
+                smooth={true}
+                duration={300}
+            >Talk to us</Link>
           </div>
           <div className="right-side-menu">
             <a href="#">Seventh triangle consulting</a>

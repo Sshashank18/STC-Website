@@ -57,12 +57,12 @@ const Header = () => {
               </div>
               <div class="col sec-col">
                 <img src={path2} alt="" id="img-2" onClick={toggleMenu} />
-                <p style={{ marginTop: "188px", marginRight: "30px" }}>
+                <p style={{ marginTop: "140px", marginRight: "30px" }}>
                   <NavLink id="para1" to="/anyqueries">
                     Big questions <br /> on your mind?
                   </NavLink>
                 </p>
-                <p style={{ marginTop: "87px" }}>
+                <p>
                   <NavLink id="para2" to="/reviews">
                     We are not shy, <br /> Stalk Us!
                   </NavLink>

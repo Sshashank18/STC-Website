@@ -11,8 +11,10 @@ import Head from "./components/Head";
 const Reviews = () => {
   const [hovered, setHovered] = useState(false);
   const [hovered2, setHovered2] = useState(false);
+  const [hovered3, setHovered3] = useState(false);
   const toggleHover = () => setHovered(!hovered);
   const toggleHover2 = () => setHovered2(!hovered2);
+  const toggleHover3 = () => setHovered3(!hovered3);
   return (
     <>
     <Head/>
@@ -27,19 +29,19 @@ const Reviews = () => {
               <img src={profile} alt="" />
               <p id="read">Read more</p>
               <p id="day">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus ab asperiores eveniet, reprehenderit atque
-                voluptatibus, quae vitae sunt laboriosam quibusdam quis aliquam
-                quisquam enim et? Eos sed dolores excepturi, quidem sapiente
-                esse harum et
+              Prashant, leads the business and strategy, alongside leading client relationships at Seventh Triangle. He has been valiant in firmly establishing STC as an upcoming leading technology and marketing firm. 
+              His formidable work ethic and unwavering efforts to deliver excellent storming results are the reason why biggest emerging startups, including KEVENTERS, ITOKRI, and BOMBAY SHAVING COMPANY, to name a few, are eager to collaborate with him. 
+              <br/><br/>
+              He's unquestionably one of the sharpest tools in the shed!
+              <br/><br/>
+              He was a cofounder of Sukkhi, India's largest fashion jewelry brand. He previously served as Sukkhi's Chief Business Officer and oversaw the D2C vertical.
+
               </p>
             </div>
-            <h3>Shushant Gupta</h3>
+            <h3>Prashant Gupta</h3>
             <p id="quote">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Excepturi iste, quae accusamus ullam unde quis assumenda
+            Founder,STC
             </p>
-            <p id="quoteName">Some Guy</p>
           </div>
         </div>
         <div className="another-img-box">
@@ -52,19 +54,45 @@ const Reviews = () => {
               <img src={profile} alt="" />
               <p id="read">Read more</p>
               <p id="day">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus ab asperiores eveniet, reprehenderit atque
-                voluptatibus, quae vitae sunt laboriosam quibusdam quis aliquam
-                quisquam enim et? Eos sed dolores excepturi, quidem sapiente
-                esse harum et
+              Sushant is one of the estimable founders of Seventh Triangle. He sagaciously leads overall technology, new tech initiatives and Business Intelligence at STC. 
+              He also strings together Marketing with Technology to achieve the goal of being a Mar-tech integrated agency and oversees solution building at various levels.
+              Essentially solving a business problem using technology, marketing and BI, Sushant proves to be a maverick in his field.
+              He has been a founder and promoter of multiple ecommerce startups himself and has been associated with xyz brands in the past. 
+              <br/><br/>
+              In his most recent position, he was a Co-Founder of a VC-funded leading fashion jewelry brand in India. 
+              For nearly a decade, he has been assisting clients in understanding their brand positioning and scaling up their business in a ROI-efficient manner.
+
               </p>
             </div>
-            <h3>Shushant Gupta</h3>
+            <h3>Sushant Gupta</h3>
             <p id="quote">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Excepturi iste, quae accusamus ullam unde quis assumenda
+            Co-Founder, STC
             </p>
-            <p id="quoteName">Some Guy</p>
+          </div>
+        </div>
+        <div className="another-img-box2">
+          <div className="info3">
+            <div
+              className={hovered3 ? "onhover" : "ofhover"}
+              onMouseEnter={toggleHover3}
+              onMouseLeave={toggleHover3}
+            >
+              <img src={profile} alt="" />
+              <p id="read">Read more</p>
+              <p id="day">
+              Shravan is leading the product department at STC, and his valiant efforts have propelled the company to new heights.
+              He is in charge of the overall technology wing's growth trajectory, as well as new businesses and partners for STC, while spearheading the technology projects. 
+              <br/><br/>
+              He soon discovered his interest and field of expertise was Product Generation while identifying, planning, and executing various marketing activities. 
+              His quest to understand why the product is desired, as well as how the market and consumers would react to it, resulted in the creation of Tartl, India's first multilingual content collaboration platform. 
+              It led overall marketing and business activities for the firms, brand associations & event management. Thereafter, he worked with Marmeto, as sales and accounts manager. 
+
+              </p>
+            </div>
+            <h3>Shravan Kumar</h3>
+            <p id="quote">
+            Founding Member and <br/>Head of the Projects
+            </p>
           </div>
         </div>
       </div>

@@ -1,9 +1,8 @@
-/* Offer section starts here */
 
-  .offer-section h3 {
+  .ques-section h3 {
     font-size: 35px;
+    font-family: 'Cardo',serif;
     text-align: center;
-    margin-top: 50px;
   }
   .second-headings {
     width: 80%;
@@ -22,7 +21,12 @@
   .hide img{
     visibility: visible;
   }
+
+  .container_fluid > .row2{
+    margin-left: -65px;
+  }
   
+
   
   .show2 h2{
     display: inline;
@@ -66,24 +70,31 @@
   }
   
   
-  .offer-section h2 {
+  .ques-section h2 {
     font-size: 55px;
     margin-top: 15px;
   }
-  /* Offer section ends here */
+
+  .subheading_img{
+    height: 30px;
+    width: 30px;
+  }
   
   @media screen and (max-width: 800px) {
-    /* Offer section starts here */
-    .offer-section h3 {
+
+    .ques-section h3 {
       font-size: 25px;
       text-align: left;
       margin-top: 50px;
     }
-    .offer-section h2 {
+    .ques-section h2 {
       font-size: 30px;
       margin-top: 15px;
     }
-    /* Offer section ends here */
+    .subheading_img{
+        height: 30px;
+        width: 30px;
+      }
   }
   
   
@@ -125,31 +136,19 @@
     display: none;
   }
   
-  .subheading__hoverO{
+  .subheading__hover{
     cursor: pointer;
     margin: 16px;
-    height:47px;
   }
-  .subheading__hoverO h3{
+  .subheading__hover h3{
     display: inline-block;
-    font-size: 26px;
+    font-size: 23px;
   }
 
-  .subheading__hoverO p{
-    margin-left: 10px;
+  .subheading__hover p{
+    margin-left: 36px;
   }
-  
-  .subheading__hoverO .subheading__hover__img{
-    height: 30px;
-    width: 30px;
-    transform: translateX(0);
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .subheading__hoverO:hover .subheading__hover__img{
-    transform: translateX(10px);
-  }
-  
+
   .header__hover{
     cursor: pointer;
     width: 100%;
@@ -160,19 +159,6 @@
   .header__hover h2{
     display: inline-block;
   }
-  
-  .header__hover .header__hover__img{
-    margin-left: 20px;
-    height: 30px;
-    width: 30px;
-    transform: scale(0);
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .header__hover:hover .header__hover__img{
-    transform: scale(1);
-  }
-  
   .white__paper__download{
     height: 100%;
   }
@@ -180,8 +166,4 @@
   .subheading__hover__div{
     display: flex;
     justify-content: space-between;
-  }
-  
-  .subheading__hover__div .subheading__hover__img{
-    transform: rotate(180deg);
   }

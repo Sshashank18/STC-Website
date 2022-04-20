@@ -29,13 +29,13 @@ const Footer = () => {
       .catch((err) => alert(err));
   }
   return (
-    <div className="footer" style={{ color: "white" }}>
-      <h1>Let's talk business</h1>
+    <div className="footer" id="footer" style={{ color: "white" }}>
+      <h1>Firm Client Rendezvous   </h1>
       <p className="hide-mob">
-        Just fill in the form and we'll schedule a call with you
+        Contact our esteemed experts for strategizing, marketing, data solutions<br/> or any other requirement for your brand
       </p>
       <p className="hide-desk">
-        Just fill in the form and <br /> we'll schedule a call with you
+      Contact our esteemed experts for strategizing, marketing, data solutions<br/> or any other requirement for your brand
       </p>
       <div className="all-input-val">
         <form onSubmit={sendEmail}>

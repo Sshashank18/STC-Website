@@ -3,6 +3,7 @@
     /* background-color: white; */
     position: sticky;
     top: 0;
+    z-index: 3;
   }
   .logo {
     height: 30px;
@@ -38,11 +39,12 @@
   .left-side-menu {
     padding-top: 150px;
     position: fixed;
-    top: 10px;
+    top: -51px;
   }
   .left-side-menu a {
     text-decoration: none;
-    color: var(--font-color-3);
+    color: var(--font-color-3) !important;
+    cursor: pointer;
     text-transform: uppercase;
     text-orientation: sideways-right;
     writing-mode: tb-rl;
@@ -54,6 +56,11 @@
     font-weight: 700;
     font-family: var(--second-font);
   }
+
+  .left-side-menu > .active{
+    color:black !important;
+  }
+
   .line {
     max-height: 20rem;
     position: absolute;
@@ -83,9 +90,16 @@
     text-align: left;
     /* font-family: "Noto Serif Display", serif; */
   }
-  .box p {
-    font-size: 7vw;
+  
+  .smallP{
+    font-size: 3vw !important;
   }
+
+  .box p {
+    font-size: 8vw;
+  }
+
+
   .right-side-menu {
     position: fixed;
     top: 28px;
@@ -114,12 +128,14 @@
   
   .second-container {
     background-color: var(--main-color);
-    height: 850px;
+    height: 694px;
     margin-top: -84px;
-    width: auto;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
   }
   .first-col {
-    height: 690px;
+    height: 540px;
   }
   .sec-col {
     height: 450px;
@@ -146,7 +162,7 @@
   }
   #text-img {
     position: relative;
-    top: 35rem;
+    top: 26rem;
     left: 1rem;
   }
   #img-2 {
@@ -166,34 +182,34 @@
     color: var(--font-color-1);
     text-align: center;
     height: 10rem;
-    font-size: 27px;
+    font-size: 30px;
     padding: 0;
   }
   
   .overlay {
     position: relative;
-    bottom: 149px;
+    bottom: 153px;
     overflow: hidden;
     height: 0;
     transition: 0.5s ease;
   }
   .overlay1 {
     position: relative;
-    bottom: 149px;
+    bottom: 153px;
     overflow: hidden;
     height: 0;
     transition: 0.5s ease;
   }
   .overlay2 {
     position: relative;
-    bottom: 149px;
+    bottom: 153px;
     overflow: hidden;
     height: 0;
     transition: 0.5s ease;
   }
   .overlay3 {
     position: relative;
-    bottom: 149px;
+    bottom: 153px;
     overflow: hidden;
     height: 0;
     transition: 0.5s ease;
@@ -297,7 +313,7 @@
     color: var(--font-color-1);
     opacity: 1;
     height: 690px;
-    left: 24.4%;
+    left: 24.22%;
   }
   .anime {
     width: 10px;
@@ -343,16 +359,21 @@
     .box {
       position: absolute;
       top: 51%;
-      width: 65%;
+      width: 77%;
       font-size: 90px;
       color: var(--font-color-2);
       text-align: left;
       /* font-family: "Noto Serif Display", serif; */
     }
     .box p {
-      font-size: 60px;
+      font-size: 45px;
       margin: 0;
     }
+
+    .smallP{
+      font-size: 5vw !important;
+    }
+
     .home-container {
       height: 743px;
     }
@@ -430,6 +451,15 @@
     .anime{
       height: 300px;
     }
+
+    .left-side-menu{
+      padding-top: 145px;
+      top:-72px;
+    }
+    .left-side-menu a{
+      font-size: 12px;
+    }
+
   }
   @media screen and (min-width: 1000px) {
     .for-mob {
