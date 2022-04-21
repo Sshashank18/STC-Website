@@ -403,8 +403,10 @@
   }
 
   .questionsNav p{
-    width: 13%;
+    width: 120px;
+    margin-right: unset;
     font-size: 16px;
+    padding: 7px;
   }
 
 

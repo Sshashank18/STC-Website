@@ -41,8 +41,8 @@
     /* width: 250px; */
   }
   .info img{
-    height: 400px;
-    width: 289px;
+    height: 450px;
+    width: 310px;
   }
   .info2{
     width: 300px;
@@ -53,13 +53,13 @@
     /* width: 250px; */
   }
   .info2 img{
-    height: 400px;
-    width: 289px;
+    height: 450px;
+    width: 310px;
   }
   
   .info3 img{
-    height: 400px;
-    width: 289px;
+    height: 450px;
+    width: 310px;
   }
   
   /* .ofhover{
@@ -79,8 +79,8 @@
   .onhover{
     background-color: var(--main-color);
     color: var(--font-color-1);
-    width:289px;
-    height: 500px;
+    width:310px;
+    height: 450px;
   }
   .onhover img{
     height: 130px;

@@ -16,18 +16,24 @@ const Footer = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_suw0hhv",
-        "template_8o16jf4",
-        e.target,
-        "Rg4OXHov1rGaCcYvN"
-      )
-      .then((res) => {
-        alert("Your message has sent");
-      })
-      .catch((err) => alert(err));
+    // emailjs
+    //   .sendForm(
+    //     "service_suw0hhv",
+    //     "template_8o16jf4",
+    //     e.target,
+    //     "Rg4OXHov1rGaCcYvN"
+    //   )
+    //   .then((res) => {
+    //     alert("Your message has sent");
+    //   })
+    //   .catch((err) => alert(err));
+
+
+
+
+
   }
+
   return (
     <div className="footer" id="footer" style={{ color: "white" }}>
       <h1>Firm Client Rendezvous   </h1>
@@ -38,7 +44,7 @@ const Footer = () => {
       Contact our esteemed experts for strategizing, marketing, data solutions<br/> or any other requirement for your brand
       </p>
       <div className="all-input-val">
-        <form onSubmit={sendEmail}>
+        <form action="https://formsubmit.co/hello@seventhtriangle.com" method="POST">
           <input type="text" name="name" placeholder="Type in your Name" required/>
           <input
             type="text"
@@ -46,13 +52,19 @@ const Footer = () => {
             placeholder="What are we talking about"
             required
           />
+          <Select options={options} value={value} onChange={changeHandler} />
           <input
             type="tel"
             name="contact"
             placeholder="Put in your contact"
-            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
             required
-          />{" "}
+          />{" "} 
+           {/* <PhoneInput
+            placeholder="Enter phone number"
+            value={value}
+            country='IN'
+            onChange={setValue}/> */}
+         
           <br />
           <input
             type="text"
@@ -67,11 +79,11 @@ const Footer = () => {
         </form>
       </div>
       <p id="copyright-desk">
-        Copyright 2020 &#169; All rights Reserved.Seventh Triangle Consulting
+        Copyright 2022 &#169; All rights Reserved.Seventh Triangle Consulting
         Private Limited
       </p>
       <p id="copyright-mob">
-        Copyright 2020 &#169; All rights Reserved. <br /> Seventh Triangle
+        Copyright 2022 &#169; All rights Reserved. <br /> Seventh Triangle
         Consulting Private Limited
       </p>
     </div>

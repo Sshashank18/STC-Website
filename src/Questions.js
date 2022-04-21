@@ -209,16 +209,21 @@ const Questions = (props) => {
       <div className={ mainContent?"col-40":"col-12"}>
       { mainContent1?(
         <div className="subheading__hover" onClick={mainArrow1}>
-        <img className="subheading_img" src={!subArrow1?minus:plus} alt="" />
-        <h3> What is digital marketing?</h3>
+          <div className="subheading_flex">
+              <img className="subheading_img" src={!subArrow1?minus:plus} alt="" />
+              <h3> What is digital marketing?</h3>
+
+          </div>
         { !subArrow1?(<p>Digital marketing is advertising delivered through digital channels such as search engines, websites, social media, email, and mobile apps. It is a system of channels where marketers simply onboard their brands, and advertise online.
           </p>):(<div></div>)}
           </div>
           ):(<div></div>)}
           { mainContent2?(
             <div className="subheading__hover"  onClick={mainArrow2}>
+              <div className="subheading_flex">
             <img className="subheading_img" src={!subArrow2?minus:plus} alt="" />
             <h3>What are paid campaigns?</h3>
+            </div>
             { !subArrow2?(<p>Paid campaigns are  ways to help discover a brand and its offerings. It is estimated that paid campaigns can bring one of the highest returns on investment (ROI).
               </p>):(<div></div>)}
   </div>
@@ -226,8 +231,11 @@ const Questions = (props) => {
   
   { mainContent3?(
     <div className="subheading__hover"  onClick={mainArrow3}>
+      <div className="subheading_flex">
     <img className="subheading_img" src={!subArrow3?minus:plus} alt="" />
+    
     <h3>Which platform is best for paid marketing for a D2C brand and Why?</h3>
+    </div>
     { !subArrow3?(<p>Facebook and Google are currently leading social media platforms in terms of maximizing sales for any brand which is looking to advertise on digital platforms. These platforms help brands to reach out to the right set of audience and deliver better ROI. 
       R- Social media sites such as facebook and instagram are best for paid marketing campaigns.
       </p>):(<div></div>)}
@@ -236,8 +244,10 @@ const Questions = (props) => {
       
       { mainContent4?(
         <div className="subheading__hover"  onClick={mainArrow4}>
+          <div className="subheading_flex">
         <img className="subheading_img" src={!subArrow4?minus:plus} alt="" />
         <h3>How are Facebook campaigns different from google campaigns?</h3>
+        </div>
         { !subArrow4?(<p>Facebook campaigns and Google campaigns run on a similar pattern, however the only difference between the two campaigns is facebook targets interest based audience while google displays ads of products people specifically search for.
           </p>):(<div></div>)}
           </div>
@@ -246,8 +256,10 @@ const Questions = (props) => {
           
           { mainContent5?(
             <div className="subheading__hover"  onClick={mainArrow5}>
+<div className="subheading_flex">
             <img className="subheading_img" src={!subArrow5?minus:plus} alt="" />
             <h3> How to judge the performance of a paid campaign?</h3>
+            </div>
             { !subArrow5?(<p>The performance of paid campaigns is judged with the use of a few metrics namely, CTR (click through rate), CPC (cost per click), CPM (cost per mille), ROI (return on investment), ROAS (return on ad spend). The reach impression  measures how many times the ad was on screen, tracking the number of people who might have seen the ad as opposed to the actual views.
               </p>):(<div></div>)}
               </div>
@@ -256,8 +268,10 @@ const Questions = (props) => {
               
               { mainContent6?(
                 <div className="subheading__hover"  onClick={mainArrow6}>
+                  <div className="subheading_flex">
                 <img className="subheading_img" src={!subArrow6?minus:plus} alt="" />
                 <h3> What is the performance marketing and how is it different from brand marketing?</h3>
+                </div>
                 { !subArrow6?(<p>Performance marketing ensures scaling and building the brand value while brand marketing establishes a relationship between brand and its consumers using its products and services as a proof to support the brand's narrative. 
                 </p>):(<div></div>)}
                 </div>
@@ -265,8 +279,10 @@ const Questions = (props) => {
                 
                 { mainContent7?(
                   <div className="subheading__hover"  onClick={mainArrow7}>
+                    <div className="subheading_flex">
                   <img className="subheading_img" src={!subArrow7?minus:plus} alt="" />
                   <h3> What types of creatives should be used for paid campaigns?</h3>
+                  </div>
                   { !subArrow7?(<p>The creative images that are self explanatory are considered to be most effective as the first thing that the audience explores is the image. The most preferred form of visual communication is well defined through a static post and works well on social media platforms. 
                     </p>):(<div></div>)}
                     </div>
@@ -274,8 +290,10 @@ const Questions = (props) => {
                     
       { mainContent8?(
         <div className="subheading__hover"  onClick={mainArrow8}>
+          <div className="subheading_flex">
         <img className="subheading_img" src={!subArrow8?minus:plus} alt="" />
         <h3> What Makes Ad Creatives Stand Out?</h3>
+        </div>
         { !subArrow8?(<p>The unique factor that caters to the requirements of the customer, highlights its USP and also aligns with the ethos,  motto and its cause.
           </p>):(<div></div>)}
           </div>
@@ -300,16 +318,20 @@ const Questions = (props) => {
             <div className={ mainContent?"col-40":"col-12"}>
             { main2Content1?(
               <div className="subheading__hover" onClick={main2Arrow1}>
+                <div className="subheading_flex">
               <img className="subheading_img" src={!sub2Arrow1?minus:plus} alt="" />
               <h3> What all practices we keep in mind for developing an E-commerce web store?</h3>
+              </div>
               { !sub2Arrow1?(<p> The first and foremost factor to keep in mind while developing an E-commerce website is registering a short domain name, followed by developing a web hosting provider which directly impacts on the success of the web store, along with relevant theme and design that correlates with our industry and connects consumers to our site and setting up and upgraded shopping cart section that convinces consumers to add more products to their cart before they checkout.
 </p>):(<div></div>)}
               </div>
               ):(<div></div>)}
               { main2Content2?(
                 <div className="subheading__hover"  onClick={main2Arrow2}>
+                  <div className="subheading_flex">
                 <img className="subheading_img" src={!sub2Arrow2?minus:plus} alt="" />
                 <h3>How business objectives help us build appropriate marketing roadmaps?</h3>
+                </div>
                 { !sub2Arrow2?(<p>Collaborating on reasonable and achievable objectives help us build an appropriate marketing road map which consists of setting rational goals, creating initiatives for their reach, creating a framework for the same followed by building campaigns to connect them to our strategy.
 </p>):(<div></div>)}
                 </div>
@@ -317,8 +339,10 @@ const Questions = (props) => {
                 
                 { main2Content3?(
                   <div className="subheading__hover"  onClick={main2Arrow3}>
+                    <div className="subheading_flex">
                   <img className="subheading_img" src={!sub2Arrow3?minus:plus} alt="" />
                   <h3>How do you measure the impact UI/UX/Tech has on E-commerce success?</h3>
+                  </div>
                   { !sub2Arrow3?(<p>UI/UX  increases the number of users of a specific application, as with its design it improves the user interface and enhances customer experience, providing customers with what they are looking for.
 </p>):(<div></div>)}
                   </div>
@@ -326,8 +350,10 @@ const Questions = (props) => {
                   
                   { main2Content4?(
                     <div className="subheading__hover"  onClick={main2Arrow4}>
+                      <div className="subheading_flex">
                     <img className="subheading_img" src={!sub2Arrow4?minus:plus} alt="" />
                     <h3>Why should your website's e-commerce have a separate performance from your Amazon platform performance?</h3>
+                    </div>
                     { !sub2Arrow4?(<p>The e-commerce platforms like amazon and flipkart are few of the highest revenue generating platforms. These sell only a particular best selling product of a particular brand, hence there has to be a separate interface performance tracking to know how much traffic is being generated on your website, and how much is it contributing in terms of performance for a clear picture.
 </p>):(<div></div>)}
                     </div>
@@ -353,8 +379,10 @@ const Questions = (props) => {
                   <div className={ mainContent?"col-40":"col-12"}>
                   { main3Content1?(
                     <div className="subheading__hover" onClick={main3Arrow1}>
+                      <div className="subheading_flex">
                     <img className="subheading_img" src={!sub3Arrow1?minus:plus} alt="" />
                     <h3> What is the use of a BI dashboard?</h3>
+                    </div>
                     { !sub3Arrow1?(<p></p>):(<div></div>)}
                     </div>
                     ):(<div></div>)}
@@ -377,8 +405,10 @@ const Questions = (props) => {
                       <div className={ mainContent?"col-40":"col-12"}>
                       { main4Content1?(
                         <div className="subheading__hover" onClick={main4Arrow1}>
+                          <div className="subheading_flex">
                         <img className="subheading_img" src={!sub4Arrow1?minus:plus} alt="" />
                         <h3> How to take your brand digital?</h3>
+                        </div>
                         { !sub4Arrow1?(<p>Digital branding is creating value around your business in the online domain which helps your consumers relate with your business instantly. It helps in optimized reach, and digital factors contribute to better connecting with your consumers, leading conversations and interactions.
 
 </p>):(<div></div>)}
@@ -386,8 +416,10 @@ const Questions = (props) => {
                         ):(<div></div>)}
                         { main4Content2?(
                           <div className="subheading__hover"  onClick={main4Arrow2}>
+                            <div className="subheading_flex">
                           <img className="subheading_img" src={!sub4Arrow2?minus:plus} alt="" />
                           <h3>How does alignment of marketing, product and tech with each other affects the business?</h3>
+                          </div>
                           { !sub4Arrow2?(<p> Alignment between product, tech and marketing teams can benefit an organization in product familiarity, improvement team skills and development and a collaborative product-marketing team can provide the product team with insight into the marketplace needed to align the efforts of the product team with what market needs.
 </p>):(<div></div>)}
                           </div>
@@ -395,16 +427,20 @@ const Questions = (props) => {
                                         
     { main4Content3?(
       <div className="subheading__hover"  onClick={main4Arrow3}>
+        <div className="subheading_flex">
       <img className="subheading_img" src={!sub4Arrow3?minus:plus} alt="" />
       <h3>When is it actually the right time for you to increase your marketing budget for scaling your business?</h3>
+      </div>
       { !sub4Arrow3?(<p>Scaling up the budget of an ad is based on the performance of the ad. If the ad is a winning ad, it is recommended to change your budget every 3-5 days.</p>):(<div></div>)}
       </div>
       ):(<div></div>)}
       
       { main4Content4?(
         <div className="subheading__hover"  onClick={main4Arrow4}>
+          <div className="subheading_flex">
         <img className="subheading_img" src={!sub4Arrow4?minus:plus} alt="" />
         <h3>How to get repeated potential buyers or customers for your ecommerce platform?</h3>
+        </div>
         { !sub4Arrow4?(<p>By providing special discounts, inviting them to loyalty programs, providing free shipping and optimizing transactional email campaigns are a few ways to improve your rate of repeated customers.</p>):(<div></div>)}
         </div>
         ):(<div></div>)}

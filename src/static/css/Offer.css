@@ -72,20 +72,7 @@
   }
   /* Offer section ends here */
   
-  @media screen and (max-width: 800px) {
-    /* Offer section starts here */
-    .offer-section h3 {
-      font-size: 17px;
-      color: grey;
-      text-align: left;
-      margin-top: 50px;
-    }
-    .offer-section h2 {
-      font-size: 30px;
-      margin-top: 15px;
-    }
-    /* Offer section ends here */
-  }
+
   
   
   .notVisible{
@@ -130,10 +117,14 @@
     cursor: pointer;
     margin: 16px;
     height:47px;
+    /* margin-bottom: 87px; */
   }
+
+
   .subheading__hoverO h3{
     display: inline-block;
     font-size: 26px;
+    
   }
 
   .subheading__hoverO p{
@@ -149,6 +140,11 @@
   
   .subheading__hoverO:hover .subheading__hover__img{
     transform: translateX(10px);
+  }
+
+  .subheading__hoverO:hover .subheading__hoverO>p{
+    transform: translateX(10px);
+    transition: all 0.3s ease;
   }
   
   .header__hover{
@@ -185,4 +181,24 @@
   
   .subheading__hover__div .subheading__hover__img{
     transform: rotate(180deg);
+  }
+
+  @media screen and (max-width: 800px) {
+    /* Offer section starts here */
+    .offer-section h3 {
+      font-size: 17px;
+      color: grey;
+      text-align: left;
+      margin-top: 50px;
+    }
+    .offer-section h2 {
+      font-size: 30px;
+      margin-top: 15px;
+    }
+    .subheading__hoverO{
+      height:unset;
+      margin-bottom: unset;
+    }
+
+    /* Offer section ends here */
   }

@@ -94,10 +94,10 @@
 
   .another-overlay-3 {
     position: absolute;
-    left: 5%;
+    left: 0%;
     right: 0;
     overflow: hidden;
-    height: 12px;
+    height: 0px;
     transition: .2s ease;
 }
 .main-container-3:hover .another-overlay-3 {

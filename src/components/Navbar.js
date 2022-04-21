@@ -15,7 +15,7 @@ import facebook from "../static/img/facebook.png";
 import location from "../static/img/location.png";
 import { IoMdCall } from "react-icons/io";
 import { MdLocationOn } from "react-icons/md";
-import { FaFacebookF } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 import { BsTwitter } from "react-icons/bs";
 import { ImCross } from "react-icons/im";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -77,42 +77,50 @@ const Navbar = () => {
                 <p>Reach Us</p>
               </div>
               <div className="col column-2">
+                <a style={{textDecoration:'none !important',color:'#ffff'}} href="tel:+9188888888">
                 <p>
                   <IoMdCall />
                 </p>
-                <div className="overlay">
+                </a>
+                {/* <div className="overlay">
                   <img src={call} alt="" className="text1" />
-                </div>
+                </div> */}
               </div>
               <div
                 className="col column-3"
               >
+                <a style={{textDecoration:'none !important',color:'#ffff'}} href="">
                 <p>
                   <MdLocationOn />
                 </p>
-                <div className="overlay1">
+                </a>
+                {/* <div className="overlay1">
                 <img src={location} alt="" className="text2" />
-                </div>
+                </div> */}
               </div>
               <div
                 className= "col column-4"
               >
+                <a style={{textDecoration:'none !important',color:'#ffff'}} href="mailto:@gmail.com">
                 <p>
-                  <FaFacebookF />
+                  <FiMail />
                 </p>
-                <div className="overlay2">
+                </a>
+                {/* <div className="overlay2">
                 <img src={facebook} alt=""  className="text3"/>
-                </div>
+                </div> */}
               </div>
               <div
                 className="col column-5"
               >
+                <a style={{textDecoration:'none !important',color:'#ffff'}} href="">
                 <p>
                   <BsTwitter />
                 </p>
-                <div className="overlay3">
+                </a>
+                {/* <div className="overlay3">
                 <img src={twitter} alt=""  className="text4" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -137,24 +145,32 @@ const Navbar = () => {
           </div>
           <div class="row mob-con" style={{ marginRight: "0px" }}>
             <div class="col">
+            <a style={{textDecoration:'none !important',color:'#ffff'}} href="tel:+91555555">
               <p>
                 <IoMdCall />
               </p>
+              </a>
             </div>
             <div class="col">
+            <a style={{textDecoration:'none !important',color:'#ffff'}} href="">
               <p>
                 <MdLocationOn />
               </p>
+              </a>
             </div>
             <div class="col">
+            <a style={{textDecoration:'none !important',color:'#ffff'}} href="">
               <p>
-                <FaFacebookF />
+                <FiMail />
               </p>
+              </a>
             </div>
             <div class="col">
+            <a style={{textDecoration:'none !important',color:'#ffff'}} href="">
               <p>
                 <BsTwitter />
               </p>
+              </a>
             </div>
           </div>
         </div>

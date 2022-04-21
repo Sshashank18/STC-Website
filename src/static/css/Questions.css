@@ -78,9 +78,12 @@
   .subheading_img{
     height: 30px;
     width: 30px;
+    margin-bottom: 5px;
   }
   
-
+.subheading_flex{
+  display: flex;
+}
 
   
   .notVisible{

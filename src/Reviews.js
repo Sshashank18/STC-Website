@@ -98,7 +98,7 @@ const Reviews = () => {
       </div>
 
       {/* Grid section starts here */}
-      <div className="grid-section">
+      {/* <div className="grid-section">
         <h1>
           Lorem ipsum dolor <br /> sit amet consectetur.
         </h1>
@@ -232,7 +232,7 @@ const Reviews = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Grid section ends here */}
 
       {/* Running text section starts here */}
@@ -282,14 +282,13 @@ const Reviews = () => {
           Become a part <br /> something big{" "}
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          voluptas architecto in. Amet ea maiores deserunt aut. Maiores officia
-          eum eligendi eius quisquam perspiciatis quo dolorem quidem deleniti
-          nulla, sint cupiditate error saepe, eos libero aliquid illum
-          molestias. Voluptas, incidunt! Consequuntur laboriosam id nihil
-          aperiam blanditiis mollitia quibusdam doloremque cumque?
+         Our work ethic is very simple; Success and Failure cannot be 
+          guaranteed but honesty and integrity is something which is absolutely
+          required. Our team is a combination of people who are Smart,
+          Relevant and have the ability to think outside the box. We work with
+          people who are passionate and walk the talk.
         </p>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+        <h3>If you think are up for it, please write to <br/> hello@seventhtriangle.com</h3>
         <img src={path1} alt=""  id="path1"/>
         <img src={path2} alt="" id="path2" />
       </div>

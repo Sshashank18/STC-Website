@@ -185,7 +185,7 @@ const Home = () => {
       {/* Ecosystem section ends here */}
 
       {/* Co-Creator section starts here */}
-      <div className="eco-section" id ="ecosystem">
+      {/* <div className="eco-section" id ="ecosystem">
         <div class="eco-row">
           <div class="eco-column-1">
             <h2>Our Co-Creators</h2>
@@ -203,7 +203,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Co-Creator section ends here */}
 
       {/* Learner|Faster| bigger| better section starts here */}
@@ -234,7 +234,7 @@ const Home = () => {
         <div className="questionsNav">
           <p  onClick={() => toggleHover5('Performance')} className={active ? 'active':''}>Performance Marketing</p>
           <p onClick={() => toggleHover5('E-commerce')} className={active2 ? 'active':''} >E-commerce Technology</p>
-          <p  onClick={() => toggleHover5('Data')} className={active3 ? 'active':''} >Data Analytics</p>
+          <p  onClick={() => toggleHover5('Data')} className={active3 ? 'active':''} >Data<br/> Analytics</p>
           <p  onClick={() => toggleHover5('Scaling')} className={active4 ? 'active':''} >Scaling Up Your Business</p>
         </div>
 
