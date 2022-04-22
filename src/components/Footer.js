@@ -28,10 +28,6 @@ const Footer = () => {
     //   })
     //   .catch((err) => alert(err));
 
-
-
-
-
   }
 
   return (
@@ -52,19 +48,24 @@ const Footer = () => {
             placeholder="What are we talking about"
             required
           />
-          <Select options={options} value={value} onChange={changeHandler} />
+          <div style={{width:'110px',display:'inline-block',fontSize:'15px',color:'black'}}>
+            <Select
+            options={options} 
+            styles={{backgroundColor:'black'}}
+            value={value}
+            onChange={changeHandler} />
+          </div>
+            {/* <select>
+              {options.forEach((op,index)=>{
+                <option>{op}</option>
+              })}
+            </select> */}
           <input
             type="tel"
             name="contact"
             placeholder="Put in your contact"
             required
           />{" "} 
-           {/* <PhoneInput
-            placeholder="Enter phone number"
-            value={value}
-            country='IN'
-            onChange={setValue}/> */}
-         
           <br />
           <input
             type="text"

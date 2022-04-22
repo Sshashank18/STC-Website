@@ -54,7 +54,7 @@
     padding: 20px 10px;
     font-size: 16px;
     font-weight: 700;
-    font-family: var(--second-font);
+    /* font-family: var(--second-font); */
   }
 
   .left-side-menu > .active{
@@ -120,7 +120,7 @@
     position: absolute;
     top: 50px;
     right: 0px;
-    font-family: var(--second-font);
+    /* font-family: var(--second-font); */
   }
   /* home-container section ends */
   

@@ -3,7 +3,7 @@
     margin: 11% 11%;
   }
   .headline p{
-      font-size: 35px;
+      font-size: 31px;
       margin:0;
     padding:0;
   }
@@ -42,7 +42,7 @@
       font-size: 20px;
       color: var(--font-color-3);
       opacity: 0.8;
-      font-family: var(--second-font);
+      /* font-family: var(--second-font); */
   }
   .para{
       width: 70%;
@@ -54,13 +54,13 @@
   }
   .another-div{
       padding: 2% 7%;
-      font-family: var(--second-font);
+      /* font-family: var(--second-font); */
   }
   .another-div p{
       font-size: 20px;
       color: var(--font-color-3);
       opacity: 0.8;
-      font-family: var(--second-font);
+      /* font-family: var(--second-font); */
   }
   
   /* Our partners section ends here */
@@ -217,8 +217,7 @@
   }
 
   .questionsNav p {
-    font-size: 21px;
-    font-family: 'Cardo',serif;
+    font-size: 17px;
     width: 9%;
     cursor: pointer;
     margin-right: 80px;
@@ -234,11 +233,11 @@
 
       .headline{
           margin: 30% 19%;
-          width: 200px;
+          /* width: 200px; */
       }
       .headline p{
           /* display: none; */
-          font-size: 18px;
+          font-size: 17px;
       }
 
       .headline h1{
@@ -376,7 +375,7 @@
     transform: rotate(-1deg);
     position: relative;
     right: -11%;
-    top: 82px;
+    top: 77px;
   }
   .line-two{
     width:44%;
@@ -385,7 +384,7 @@
     transform: rotate(-1deg);
     position: relative;
     right: -2%;
-    top: 189px;
+    top: 180px;
   }
   .line-three{
     width:20%;
@@ -393,8 +392,8 @@
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -72%;
-    top: 295px;
+    right: -71%;
+    top: 280px;
   }
 
   .questionsNav{
@@ -446,8 +445,8 @@
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -9%;
-    top: 153px;
+    right: -8%;
+    top: 135px;
   }
   .line-three{
     width:8%;
@@ -455,8 +454,8 @@
     background-color: var(--main-color);
     transform: rotate(-1deg);
     position: relative;
-    right: -76%;
-    top: 200px;
+    right: -77%;
+    top: 182px;
   }
   }
   

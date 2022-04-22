@@ -1,7 +1,6 @@
 
   .ques-section h3 {
     font-size: 35px;
-    font-family: 'Cardo',serif;
     text-align: center;
   }
   .second-headings {
@@ -139,7 +138,7 @@
 
   .header__hover{
     cursor: pointer;
-    width: 100%;
+    width: 103%;
   }
   
   

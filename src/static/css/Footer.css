@@ -8,7 +8,7 @@
     font-size: 20px;
 }
 .footer p{
-    font-family: var(--second-font);
+    /* font-family: var(--second-font); */
     color: var(--font-color-1);
     opacity: 0.6;
 }
@@ -28,7 +28,7 @@
 .all-input-val input::placeholder{
     font-size: 14px;
     color: var(--font-color-3);
-    font-family: var(--second-font);
+    /* font-family: var(--second-font); */
 }
 #email-field {
     width: 230px;
