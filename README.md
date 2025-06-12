@@ -32,12 +32,17 @@ npm start
 ```
 
 ## Screenshots
-![Website Screenshot](.Screenshots/Screenshot (2).png)
-![Website Screenshot](.Screenshots/Screenshot (3).png)
-![Website Screenshot](.Screenshots/Screenshot (4).png)
-![Website Screenshot](.Screenshots/Screenshot (5).png)
-![Website Screenshot](.Screenshots/Screenshot (6).png)
-![Website Screenshot](.Screenshots/Screenshot (7).png)
-
+<img src="https://github.com/Sshashank18/STC-Website/blob/master/Screenshots/Screenshot%20(2).png"
+     style="float: left; margin-right: 10px;"/>
+<img src="https://github.com/Sshashank18/STC-Website/blob/master/Screenshots/Screenshot%20(3).png"
+     style="float: left; margin-right: 10px;"/>
+<img src="https://github.com/Sshashank18/STC-Website/blob/master/Screenshots/Screenshot%20(4).png"
+     style="float: left; margin-right: 10px;"/>
+<img src="https://github.com/Sshashank18/STC-Website/blob/master/Screenshots/Screenshot%20(5).png"
+     style="float: left; margin-right: 10px;"/>
+<img src="https://github.com/Sshashank18/STC-Website/blob/master/Screenshots/Screenshot%20(6).png"
+     style="float: left; margin-right: 10px;"/>
+<img src="https://github.com/Sshashank18/STC-Website/blob/master/Screenshots/Screenshot%20(7).png"
+     style="float: left; margin-right: 10px;"/>
 
 
