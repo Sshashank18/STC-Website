@@ -1,0 +1,471 @@
+.headline {
+    text-align: center;
+    margin: 11% 11%;
+  }
+  .headline p{
+      font-size: 31px;
+      margin:0;
+    padding:0;
+  }
+  /* Our partners section starts here */
+  .column-layout {
+    float: left;
+    padding: 10px;
+  }
+  .first-column {
+    width: 60%;
+  }
+  .all-img{
+      width: 90%;
+      margin-left:11%;
+  }
+  .all-img img{
+      width: 12%;
+      height: auto;
+      margin: 0px 6%;
+  }
+  .all-img2{
+    width: 100%;
+    margin-left: 0;
+}
+
+  .all-img2 img{
+    width: 15%;
+    height: auto;
+    margin: 12px 4%;
+  }
+
+  .second-column {
+    width: 40%;
+  }
+  .second-column p{
+      font-size: 20px;
+      color: var(--font-color-3);
+      opacity: 0.8;
+      /* font-family: var(--second-font); */
+  }
+  .para{
+      width: 70%;
+  }
+  .row-layout:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .another-div{
+      padding: 2% 7%;
+      /* font-family: var(--second-font); */
+  }
+  .another-div p{
+      font-size: 20px;
+      color: var(--font-color-3);
+      opacity: 0.8;
+      /* font-family: var(--second-font); */
+  }
+  
+  /* Our partners section ends here */
+  
+  #path4{
+    position: absolute;
+    top: 150%;
+    z-index: -1;
+  }
+  
+  
+  /* Ecosystem section starts here */
+  .eco-row{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .eco-column-1,.eco-column-2 {
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    color: var(--main-color);
+  }
+  .eco-column-1{
+    width: 40%;
+    padding: 12px 1%;
+    padding-left: 9%;
+  }
+  .eco-column-1 p{
+    opacity: 60%;
+  }
+  .eco-column-1 h2{
+    font-size: 35px;
+    opacity: 100%;
+  }
+  .eco-column-2{
+    width: 60%;
+  }
+  .eco-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .img-container img{
+    margin: -8px 2%;
+  }
+  #img-container-1{
+    width: 139.25px;
+    height: 50.57px;
+  }
+  #img-container-2{
+    width: 139.18px;
+    height: 79.63px;
+  }
+  #img-container-3{
+    width: 139.97px;
+    height: 80.08px;
+  }
+  #img-container-4{
+    width: 183.46px;
+    height: 104.97px;
+  }
+  #img-container-5{
+    width: 151.04px;
+    height: 86.42px;
+  }
+  #img-container-6{
+    width: 144.71px;
+    height: 23.22px;
+  }
+  #img-container-7{
+    width: 101.22px;
+    height: 57.91px;
+  }
+  #img-container-8{
+    width: 185.83px;
+    height: 106.33px;
+  }
+  #img-container-9{
+    width: 183.46px;
+    height: 104.97px;
+  }
+  #img-container-10{
+    width: 139.97px;
+    height: 80.08px;
+  }
+  #img-container-11{
+    width: 139.18px;
+    height: 79.63px;
+  }
+  #img-container-12{
+    width: 139.25px;
+    height: 50.57px;
+  }
+  #img-container-13{
+    width: 185.83px;
+    height: 106.33px;
+  }
+  #img-container-14{
+    width: 139.97px;
+    height: 80.08px;
+  }
+  #img-container-15{
+    width: 144.71px;
+    height: 23.22px;
+  }
+  #img-container-16{
+    width: 151.04px;
+    height: 86.42px;
+  }
+  
+  
+  /* Ecosystem section ends here */
+  
+  
+  /* Learner|Faster| bigger| better section starts here */
+  .strive-section h3{
+    font-size: 45px;
+    text-align: center;
+  }
+  .learner-sec-desk{
+    text-align: center;
+  }
+  .learner-sec-desk img{
+    height: 88px;
+    width: 244px;
+    border-right: 2px solid var(--main-color);
+    margin-bottom: 50px;
+    transition: .5s ease;
+  }
+  
+  .learner-sec-mob{
+    text-align: center;
+  }
+  .learner-sec-mob img{
+    height: 60px;
+    width: 148px;
+  }
+  .learner-sec-mob p{
+    width: 35%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  /* Learner|Faster| bigger| better section ends here */
+  
+  
+  .questionsNav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top: 15px;
+    margin-left: 65px;
+  }
+
+  .questionsNav p {
+    font-size: 17px;
+    width: 9%;
+    cursor: pointer;
+    margin-right: 80px;
+    color:gray;
+  }
+  
+  
+  .questionsNav > .active{
+    color: black;
+  }
+  
+  @media screen and (max-width: 800px) {
+
+      .headline{
+          margin: 30% 19%;
+          /* width: 200px; */
+      }
+      .headline p{
+          /* display: none; */
+          font-size: 17px;
+      }
+
+      .headline h1{
+        /* font-size: 35px; */
+        display: none;
+      }
+
+      /* Our partners section starts here */
+    .column-layout {
+      width: 100%;
+      padding-left: 25px;
+    }
+    .all-img{
+        width: 100%;
+        margin-left:0;
+    }
+    .all-img img{
+      width: 15%;
+      height: auto;
+      margin: 0px 4%;
+    }
+    .second-column {
+        padding: 2% 4%;
+    }
+    .para{
+        width: 100%;
+    }
+    
+    .second-column{
+        visibility: hidden;
+        display: none;
+    }
+    /* Our partners section ends here */
+  
+  
+    /* Learner|Faster| bigger| better section starts here */
+  .strive-section h3{
+    font-size: 25px;
+  }
+  .learner-sec-desk{
+    display: none;
+  }
+  
+  /* Learner|Faster| bigger| better section ends here */
+  
+  
+  
+  /* Ecosystem section starts here */
+  .eco-column-1,.eco-column-2 {
+    width: 100%;
+    padding: 12px 12%;
+    font-size: 14px;
+  }
+  .eco-column-1 h2{
+    font-size: 25px;
+  }
+  #img-container-1{
+    width: 67.49px;
+    height: 24.51px;
+  }
+  #img-container-2{
+    width: 67.45px;
+    height: 38.59px;
+  }
+  #img-container-3{
+    width: 67.84px;
+    height:38.81px;
+  }
+  #img-container-4{
+    width: 67.92px;
+    height: 50.87px;
+  } 
+  #img-container-5{
+    width: 73.2px;
+    height: 41.88px;
+  }
+  #img-container-6{
+    width: 70.14px;
+    height: 11.25px;
+  }
+  #img-container-7{
+    width: 49.06px;
+    height: 28.07px;
+  }
+  #img-container-8{
+    width: 90.07px;
+    height: 51.53px;
+  }
+  #img-container-9{
+    width: 88.92px;
+    height: 50.87px;
+  }
+  #img-container-10{
+    width: 67.84px;
+    height: 38.81px;
+  }
+  #img-container-11{
+    width: 67.45px;
+    height: 38.59px;
+  }
+  #img-container-12{
+    width: 67.49px;
+    height: 24.51px;
+  }
+  #img-container-13{
+    width: 90.07px;
+    height: 51.53px;
+  }
+  #img-container-14{
+    width: 49.06px;
+    height: 28.07px;
+  }
+  #img-container-15{
+    width: 70.14px;
+    height: 11.25px;
+  }
+  #img-container-16{
+    width: 73.2px;
+    height: 41.88px;
+  }
+  #path4{
+    display: none;
+  }
+  
+
+  .eco-section{
+    margin-top: -90px;
+  }
+  
+  /* Ecosystem section ends here */
+  .line-one{
+    width:80%;
+    height: 0.6px;
+    background-color: var(--main-color);
+    transform: rotate(-1deg);
+    position: relative;
+    right: -11%;
+    top: 77px;
+  }
+  .line-two{
+    width:44%;
+    height: 0.6px;
+    background-color: var(--main-color);
+    transform: rotate(-1deg);
+    position: relative;
+    right: -2%;
+    top: 180px;
+  }
+  .line-three{
+    width:20%;
+    height: 0.6px;
+    background-color: var(--main-color);
+    transform: rotate(-1deg);
+    position: relative;
+    right: -71%;
+    top: 280px;
+  }
+
+  .questionsNav{
+    justify-content: unset;
+    margin-left: 55px;
+  }
+
+  .questionsNav p{
+    width: 120px;
+    margin-right: unset;
+    font-size: 16px;
+    padding: 7px;
+  }
+
+
+  .another-div{
+    padding: 2% 12%;
+  }
+  .another-div p{
+    font-size: 14px;
+  }
+
+  }
+  @media screen and (min-width: 800px)  {
+    .headline h1{
+        display: none;
+    }
+      .another-div{
+          visibility: hidden;
+          display: none;
+      }
+      /* Learner|Faster| bigger| better section starts here */
+  .learner-sec-mob{
+    display: none;
+  }
+  /* Learner|Faster| bigger| better section ends here */
+  .line-one{
+    width:30%;
+    height: 0.6px;
+    background-color: var(--main-color);
+    transform: rotate(-1deg);
+    position: relative;
+    right: -65%;
+    top: 47px;
+  }
+  .line-two{
+    width:14%;
+    height: 0.6px;
+    background-color: var(--main-color);
+    transform: rotate(-1deg);
+    position: relative;
+    right: -8%;
+    top: 135px;
+  }
+  .line-three{
+    width:8%;
+    height: 0.6px;
+    background-color: var(--main-color);
+    transform: rotate(-1deg);
+    position: relative;
+    right: -77%;
+    top: 182px;
+  }
+  }
+  
+  
+  #path5{
+    /* height: 219px; */
+    width: 13%;
+    position: absolute;
+    right: 0px;
+    top: 105%;
+  }
+  
+  

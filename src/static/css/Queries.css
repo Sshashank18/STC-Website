@@ -1,0 +1,86 @@
+/* .navigation-bar{
+    background-color: var(--font-color-1);
+}
+#logo{
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#menu{
+    height: 65px;
+}
+.body{
+    text-align: left;
+    color: var(--main-color); 
+    width: 80%;
+    margin: auto;
+    padding: 2% 7%;
+    margin-top: 21px;
+}
+.body h1{
+    font-size: 100px;
+}
+.body p{
+    font-size: 25px;
+    opacity: 0.5;
+}
+.box-1{
+    width: 450px;
+    margin: auto;
+    font-size: 18px;
+    color: var(--main-color);
+    margin-top: 60px;
+}
+.box-1 p{
+    opacity: 0.5;
+}
+.box-1 h1{
+    font-size: 55px;
+    border-left: 3px solid var(--main-color);
+    padding: 12px 12px;
+}
+.hover-heading{
+    background:white; 
+    background: linear-gradient(to left, white 50%, #3D3D3D 50%) right;
+    background-size: 200%;
+    transition: .8s ease-out;
+}
+.hover-heading:hover {
+    background-position: left;
+    color: var(--font-color-1);
+}
+@media screen and (max-width:600px) {
+    .body{
+        width: 100%;
+        font-size: 60px;
+    }
+    .body p{
+        font-size: 18px;
+    }
+    .box-1{
+        width: 100%;
+        padding: 2% 8%;
+    }
+    .box-1 h1{
+        font-size: 30px;
+    }
+    .box-1 p{
+        font-size: 14px;
+    }
+    #path3{
+        display: none;
+    }
+}
+#path3{
+    height: 360px;
+    width: 50%;
+    position: absolute;
+    top: 80%;
+    right: 1%;
+    z-index: -1;
+
+} */
+
+
+

@@ -1,0 +1,181 @@
+
+  .ques-section h3 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .second-headings {
+    width: 80%;
+    margin: auto;
+    padding: 12px 12px;
+  }
+  .show h2{
+    display: inline;
+  }
+  .hide h2{
+    display: inline;
+  }
+  .show img{
+     visibility: hidden;
+  }
+  .hide img{
+    visibility: visible;
+  }
+
+  .container_fluid > .row2{
+    margin-left: -65px;
+  }
+  
+
+  
+  .show2 h2{
+    display: inline;
+  }
+  .hide2 h2{
+    display: inline;
+  }
+  .show2 img{
+     visibility: hidden;
+  }
+  .hide2 img{
+    visibility: visible;
+  }
+  
+  
+  .show3 h2{
+    display: inline;
+  }
+  .hide3 h2{
+    display: inline;
+  }
+  .show3 img{
+     visibility: hidden;
+  }
+  .hide3 img{
+    visibility: visible;
+  }
+  
+  
+  .show4 h2{
+    display: inline;
+  }
+  .hide4 h2{
+    display: inline;
+  }
+  .show4 img{
+     visibility: hidden;
+  }
+  .hide4 img{
+    visibility: visible;
+  }
+  
+  
+  .ques-section h2 {
+    font-size: 55px;
+    margin-top: 15px;
+  }
+
+  .subheading_img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+  }
+  
+.subheading_flex{
+  display: flex;
+}
+
+  
+  .notVisible{
+    display: none;
+  }
+  .visibleNow{
+    display: block;
+    font-size: 18px;
+  }
+  .visibleNow h3{
+    text-align: left;
+    margin: 2px;
+  }
+  .show5{
+    display: inline;
+  }
+  .hide5{
+    cursor: pointer;
+    display: inline;
+    padding-right:12px ;
+  }
+  .newBox{
+    display: inline;
+  }
+  .hide6{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .hide7{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .hide8{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .visibleNow2{
+    display: none;
+  }
+  
+  .subheading__hover{
+    cursor: pointer;
+    margin: 16px;
+  }
+  .subheading__hover h3{
+    display: inline-block;
+    font-size: 23px;
+  }
+
+  .subheading__hover p{
+    margin-left: 36px;
+  }
+
+  .header__hover{
+    cursor: pointer;
+    width: 103%;
+  }
+  
+  
+  
+  .header__hover h2{
+    display: inline-block;
+  }
+  .white__paper__download{
+    height: 100%;
+  }
+  
+  .subheading__hover__div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 800px) {
+
+    .ques-section{
+      margin-left: 51px;
+    }
+
+    .ques-section h3 {
+      font-size: 20px;
+      text-align: left;
+    }
+    .ques-section h2 {
+      font-size: 30px;
+      margin-top: 15px;
+    }
+    .subheading_img{
+        height: 30px;
+        width: 30px;
+      }
+
+      .subheading__hover p{
+        margin-left: 0px;
+      }
+  }
+  
